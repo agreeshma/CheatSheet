@@ -1,0 +1,161 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 20, 2016, 11:40:36 PM
+    Author     : acer main
+*/
+
+body
+{
+    background-image:url("http://3dandhdwallpapers.com/wp-content/uploads/2014/01/Amazing-Wallpapers1540.jpg");
+}
+#wrap{
+    //float:left;
+    width: 410px;
+    //height: 440px;
+
+}
+.div1{//RESOURCE
+      height: 214px;
+      width: 200px;
+      background-color:yellow;
+      border-radius: 7px;
+      float:left;
+      position:relative;
+      //top:10px;
+      opacity:0.7;
+}
+
+.div2{            //NUMBER
+                  height: 212px;
+                  width: 200px;
+                  background-color: #ff9999;
+                  border-radius: 7px;
+                  float:right;
+                  position:relative;
+                  //filter:alpha(opacity=30); 
+                  opacity:0.7;
+                  //top:5px;
+}
+
+.div3{       //BOOLEAN
+             height: 140px;
+             width: 200px;
+             background-color:green;
+             border-radius: 7px;
+             float:left;
+             //position:relative;
+             //top: 10px;
+             opacity:0.7;
+             position: absolute; 
+             top: 315px;
+             //left: 0px;
+}
+
+.div4{       //STRING
+             height:418px;
+             width:200px;
+             background-color: #ff00ff;
+             border-radius: 7px;
+             float:right;
+             position: relative;
+             top:8px;
+             opacity:0.7;
+}
+.div5{           //ARRAY
+                 height:480px;
+                 width:200px;
+                 position: absolute;
+                 border-radius: 7px;
+                 //top: 10px;
+                 left: 428px;
+                 background-color: #ff9900;
+                 // position: relative;
+                 //top:10px;
+                 opacity:0.7;
+}
+.div6{           //DATE
+                 height:950px;
+                 width:200px;
+                 position: absolute;
+                 border-radius: 7px;
+                 //top: 10px;
+                 left: 638px;
+                 background-color: #33ccff;
+                 // position: relative;
+                 //top:10px;
+                 opacity:0.7;
+}
+
+.div7{           //REG EXP
+                 height: 180px;
+                 width: 200px;
+                 //background-color:green;
+                 border-radius: 7px;
+                 top: 501px;
+                 // float:left;
+                 //position:relative;
+                 position: absolute; 
+                 float:left;
+                 background: #cc0000;
+                 opacity:0.7;
+}
+
+.div8{       //MATH
+    height:350px;
+    width: 200px;
+    position: absolute;
+    // top: 45px;
+    left: 848px; 
+    background-color: #99cc00;
+    border-radius: 7px;
+    opacity:0.7;
+}
+
+.div9{             //String HTML wrappers
+     height:280px;
+    width: 200px;
+    position: absolute;
+    top: 340px;
+    left: 848px; 
+    background-color: #009999;
+    border-radius: 7px;
+    opacity:0.7;
+    
+}
+
+.div10{           //WINDOW
+    height: 520px;
+    width: 200px;
+    position: absolute;
+    left: 1058px; 
+    background-color: #ff6600;
+    opacity: 0.7;
+    border-radius: 7px;
+    //position: absolute; 
+    //top: 45px;    
+}
+
+.hid{
+    text-align: right;
+    border-bottom: 2px solid black;
+    margin-right: 5px;
+    color: black;
+    font-family: Verdana,sans-serif ;
+   // fontsize: 10px;
+}
+
+.bid, .atag{
+    margin:0px 0px 0px 5px;
+}
+.bid1{
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+a:hover {
+    background-color: #ffffff;
+}
+

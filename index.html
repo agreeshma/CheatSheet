@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CheatSheet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!--script type="text/javascript" src="js/libs/jquery/jquery.js"></script-->
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" media="all" />
+         <script type="text/javascript" src="script.js"></script>
+         <link rel="stylesheet" type="text/css" href="style.css">
+         <script>
+             $( function() {
+    $( document ).tooltip();
+  } );
+            </script>
+        
+           
+    </head>
+    
+    <body>
+        <div id="wrap">
+            
+        <div class="div1">
+            <h1 class="hid"> Resource</h1>
+            <b class="bid"> Reference </b>
+            <br>
+            <a class="atag" href="http://overapi.com/javascript"><i>OverAPI</i></a> 
+            <p class="bid1"> This Cheat Sheet is for referring of the Java Script methods for easy reference purpose.
+               A tooltip is attached for an overview of each methods. On clicking of each method gives a detailed explanation of each method with its syntax.</p> 
+        </div>
+            
+        <div class="div2">
+            <h1 class="hid">Number Methods</h1>
+            <a class="bid" id="home" onclick="diagOpen(this.id)"> constructor()</a><br>
+            <a class="bid" id="toExp" onclick="diagOpen(this.id)"> toExponential()</a><br>
+            <a class="bid"> toFixed()</a><br>
+            <a class="bid"> toLocalString()</a><br>
+            <a class="bid"> toPrecision()</a><br>
+            <a class="bid"> toString()</a><br>
+            <a class="bid"> valueOf()</a><br>  
+        </div>
+            
+            <div class="div3">
+            <h1 class="hid">Boolean Methods</h1>
+            <a class="bid" title="Returns a string containing the source of the Boolean object; you can use this string to create an equivalent object."> toSource()</a><br>
+            <a class="bid" title="Returns a string of either 'true' or 'false' depending upon the value of the object."> toString()</a><br>
+            <a class="bid" title="Returns the primitive value of the Boolean object."> valueOf()</a>
+            <br>
+        </div>
+            
+            <div class="div4">
+                <h1 class="hid">String Methods</h1>
+                <a class="bid" title="Returns the character at the specified index.">charAt()</a><br>
+                <a class="bid" title="Returns a number indicating the Unicode value of the character at the given index.">chatCodeAt()</a><br>
+                <a class="bid" title="Combines the text of two strings and returns a new string.">concat()</a><br>
+                <a class="bid" title="Returns the index within the calling String object of the first occurrence of the specified value, or -1 if not found.">indexOf()</a><br>
+                <a class="bid" title="Returns the index within the calling String object of the last occurrence of the specified value, or -1 if not found.">lastIndexOf()</a><br>
+                <a class="bid" title="Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order.">localeCompare()</a><br>
+                <a class="bid" title="Returns the length of the string.">length()</a><br>
+                <a class="bid" title="Used to match a regular expression against a string.">match()</a><br>
+                <a class="bid" title="Used to find a match between a regular expression and a string, and to replace the matched substring with a new substring.">replace()</a><br>
+                <a class="bid" title="Executes the search for a match between a regular expression and a specified string.">search()</a><br>
+                <a class="bid" title="Extracts a section of a string and returns a new string.">slice()</a><br>
+                <a class="bid" title="Splits a String object into an array of strings by separating the string into substrings.">split()</a><br>
+                <a class="bid" title="Returns the characters in a string beginning at the specified location through the specified number of characters.">substr()</a><br>
+                <a class="bid" title="The characters within a string are converted to lower case while respecting the current locale.">toLocaleLowerCase()</a><br>
+                <a class="bid" title="The characters within a string are converted to upper case while respecting the current locale.">toLocaleUpperCase()</a><br>
+                <a class="bid" title="Returns a string representing the specified object.">toString()</a><br>
+                <a class="bid" title="Returns the calling string value converted to upper case.">toUpperCase()</a><br>
+                <a class="bid" title="Returns the calling string value converted to lower case.">toLowerCase()</a><br>
+                <a class="bid" title="Returns the primitive value of the specified object.">valueOf()</a><br>
+            </div>
+            
+            <div class="div5">
+                <h1 class="hid">Array Methods</h1>
+                <a class="bid" title="Returns a new array comprised of this array joined with other array(s) and/or value(s)."> concat()</a><br>
+                <a class="bid" title="Returns true if every element in this array satisfies the provided testing function."> every()</a><br> 
+                <a class="bid" title="Creates a new array with all of the elements of this array for which the provided filtering function returns true."> filter()</a><br>
+                <a class="bid" title="Calls a function for each element in the array."> forEach()</a><br>
+                <a class="bid" title="Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found."> indexOf()</a><br>
+                <a class="bid" title="Joins all elements of an array into a string."> join()</a><br>
+                <a class="bid" title="Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found."> lastIndexOf()</a><br>
+                <a class="bid" title="Creates a new array with the results of calling a provided function on every element in this array."> map()</a><br>
+                <a class="bid" title="Removes the last element from an array and returns that element."> pop()</a><br>
+                <a class="bid" title="Adds one or more elements to the end of an array and returns the new length of the array."> push()</a><br>
+                <a class="bid" title="Apply a function simultaneously against two values of the array (from left-to-right) as to reduce it to a single value."> reduce()</a><br>
+                <a class="bid" title="Apply a function simultaneously against two values of the array (from right-to-left) as to reduce it to a single value."> reduceRight()</a><br>
+                <a class="bid" title="Reverses the order of the elements of an array -- the first becomes the last, and the last becomes the first."> reverse()</a><br>
+                <a class="bid" title="Removes the first element from an array and returns that element."> shift()</a><br>
+                <a class="bid" title="Extracts a section of an array and returns a new array."> slice()</a><br>
+                <a class="bid" title="Returns true if at least one element in this array satisfies the provided testing function."> some()</a><br>
+                <a class="bid" title="Represents the source code of an object.">toSource()</a><br>
+                <a class="bid" title="Sorts the elements of an array.">sort()</a><br>
+                <a class="bid" title="Adds and/or removes elements from an array.">splice()</a><br>
+                <a class="bid" title="Returns a string representing the array and its elements.">toString()</a><br>
+                <a class="bid" title="Adds one or more elements to the front of an array and returns the new length of the array.">unshift()</a><br>
+            </div>
+            
+            <div class="div6">
+                <h1 class="hid">Date Methods</h1>
+                <a class="bid" title="Returns today's date and time">Date()</a><br>
+                 <a class="bid" title="Returns the day of the month for the specified date according to local time.">getDate()</a><br>
+                 <a class="bid" title="Returns the day of the week for the specified date according to local time.">getDay()</a><br>
+                 <a class="bid" title="Returns the year of the specified date according to local time.">getFullYear()</a><br>
+                 <a class="bid" title="Returns the hour in the specified date according to local time.">getHours()</a><br>
+                 <a class="bid" title="Returns the milliseconds in the specified date according to local time.">getMilliseconds()</a><br>
+                 <a class="bid" title="Returns the minutes in the specified date according to local time.">getMinutes()</a><br>
+                 <a class="bid" title="Returns the month in the specified date according to local time.">getMonth()</a><br>
+                 <a class="bid" title="Returns the seconds in the specified date according to local time.">getSeconds()</a><br>
+                 <a class="bid" title="Returns the numeric value of the specified date as the number of milliseconds since January 1, 1970, 00:00:00 UTC.">getTime()</a><br>
+                 <a class="bid" title="Returns the time-zone offset in minutes for the current locale.">getTimezoneOffSet()</a><br>
+                 <a class="bid" title="Returns the day (date) of the month in the specified date according to universal time.">getUTCDate()</a><br>
+                 <a class="bid" title="Returns the day of the week in the specified date according to universal time.">getUTCDay()</a><br>
+                 <a class="bid" title="Returns the year in the specified date according to universal time.">getUTCFullYear()</a><br>
+                 <a class="bid" title="Returns the hours in the specified date according to universal time.">getUTCHours()</a><br>
+                 <a class="bid" title="Returns the milliseconds in the specified date according to universal time.">getUTCMilliseconds()</a><br>
+                 <a class="bid" title="Returns the minutes in the specified date according to universal time.">getUTCMinutes()</a><br>
+                 <a class="bid" title="Returns the month in the specified date according to universal time.">getUTCMonth()</a><br>
+                 <a class="bid" title="Returns the seconds in the specified date according to universal time.">getUTCSeconds()</a><br>
+                 <a class="bid" title="Returns the year in the specified date according to local time. Use getFullYear instead.">getYear()</a><br>
+                 <a class="bid" title="Sets the day of the month for a specified date according to local time.">setDate()</a><br>
+                 <a class="bid" title="Sets the full year for a specified date according to local time.">setFullYear()</a><br>
+                 <a class="bid" title="Sets the hours for a specified date according to local time.">setHours()</a><br>
+                 <a class="bid" title="Sets the minutes for a specified date according to local time.">setMinutes()</a><br>
+                 <a class="bid" title="Sets the milliseconds for a specified date according to local time.">setMilliseconds()</a><br>
+                 <a class="bid" title="Sets the month for a specified date according to local time.">setMonth()</a><br>
+                 <a class="bid" title="Sets the seconds for a specified date according to local time.">setSeconds()</a><br>
+                 <a class="bid" title="Sets the Date object to the time represented by a number of milliseconds since January 1, 1970, 00:00:00 UTC.">setTime()</a><br>
+                 <a class="bid" title="Sets the day of the month for a specified date according to universal time.">setUTCDate()</a><br>
+                 <a class="bid" title="Sets the full year for a specified date according to universal time.">setUTCFullYear()</a><br>
+                 <a class="bid" title="Sets the hour for a specified date according to universal time.">setUTCHours()</a><br>
+                 <a class="bid" title="Sets the milliseconds for a specified date according to universal time.">setUTCMilliseconds()</a><br>
+                 <a class="bid" title="Sets the minutes for a specified date according to universal time.">setUTCMinutes()</a><br>
+                 <a class="bid">setUTCSeconds()</a><br>
+                 <a class="bid">setUTCMonth()</a><br>
+                 <a class="bid">setYear()</a><br>
+                 <a class="bid">toDateString()</a><br>
+                 <a class="bid">toGMTString()</a><br>
+                 <a class="bid">toLocaleDateString()</a><br>
+                 <a class="bid">toLocaleFormat()</a><br>
+                 <a class="bid">toLocaleString()</a><br>
+                 <a class="bid">toLocaleTimeString()</a><br>
+                 <a class="bid">toSource()</a><br>
+                 <a class="bid">toString()</a><br>
+                 <a class="bid">toTimeString()</a><br>
+                 <a class="bid">toUTCString()</a><br>
+                 <a class="bid">valueOf()</a><br>
+            </div>
+            
+            <div class="div7">
+                <h1 class="hid">RegExp Methods</h1>
+                <a class="bid" title="Executes a search for a match in its string parameter.">exec()</a><br>
+                <a class="bid" title="Tests for a match in its string parameter.">test()</a><br>
+                <a class="bid" title="Returns an object literal representing the specified object; you can use this value to create a new object.">toSource()</a><br>
+                <a class="bid" title="Returns a string representing the specified object.">toString()</a><br>
+            </div>
+           
+            
+            <div class='div8'>
+                <h1 class="hid">Math Methods</h1>
+                <a class="bid" title="Returns the absolute value of a number.">abs()</a><br>
+                <a class="bid" title="Returns the smallest integer greater than or equal to a number.">ceil()</a><br>
+                <a class="bid" title="Returns the largest integer less than or equal to a number.">floor()</a><br>
+                <a class="bid" title="Returns E to the power N, where N is the argument, and E is Euler's constant, the base of the natural logarithm.">exp()</a><br>
+                <a class="bid" title="Returns the natural logarithm (base E) of a number.">log()</a><br>
+                <a class="bid" title="Returns the largest of zero or more numbers.">max()</a><br>
+                <a class="bid" title="Returns the smallest of zero or more numbers.">min()</a><br>
+                <a class="bid" title="Returns base to the exponent power, that is, base exponent.">pow()</a><br>
+                <a class="bid" title="Returns a pseudo-random number between 0 and 1.">random()</a><br>
+                <a class="bid" title="Returns the value of a number rounded to the nearest integer.">round()</a><br>
+                <a class="bid" title="Returns the square root of a number.">sqrt()</a><br>
+            </div>
+            
+            <div class='div9'>
+                <h1 class='hid'>String HTML wrappers</h1>
+                <a class='bid' title="Creates an HTML anchor that is used as a hypertext target.">anchor()</a><br>
+                <a class='bid' title="Creates a string to be displayed in a big font as if it were in a <big> tag.">big()</a><br>
+                <a class='bid' title="Creates a string to blink as if it were in a <blink> tag.">blink()</a><br>
+                <a class='bid' title="Creates a string to be displayed as bold as if it were in a <b> tag.">bold()</a><br>
+                <a class='bid' title="Causes a string to be italic, as if it were in an <i> tag.">italics()</a><br>
+                <a class='bid' title="Creates an HTML hypertext link that requests another URL.">link()</a><br>
+                <a class='bid' title="Causes a string to be displayed in a small font, as if it were in a <small> tag.">small()</a><br>
+            </div>
+            
+            <div class='div10'>
+                <h1 class='hid'>Window Object Methods</h1>
+                <a class="bid" title="Displays an alert box with a message and an OK button">alert()</a><br>
+                <a class="bid" title="Removes focus from the current window">blur()</a><br>
+                <a class="bid" title="Cancels a timeout set with setInterval()">clearInterval()</a><br>
+                <a class="bid" title="cancels a timeout set with setTimeout()">clearTimeOut()</a><br>
+                <a class="bid" title="Cancels the current window">close()</a><br>
+                <a class="bid" title="Displays a dialog box with a message and an OK and a Cancel button">confirm()</a><br>
+                <a class="bid" title="Creates a pop up window">createPopup()</a><br>
+                <a class="bid" title="Sets focus to the current window">focus()</a><br>
+                <a class="bid" title="Moves a window relative to its current position">moveBy()</a><br>
+                <a class="bid" title="oves a window relative to its specified position">moveTo()</a><br>
+                <a class="bid" title="Opens a new browser window">open()</a><br>
+                <a class="bid" title="Prints the contents of the current window">print()</a><br>
+                <a class="bid" title="Displays a dialog box that prompts the user for input">prompt()</a><br>
+                <a class="bid" title="Resizes a window by the specified pixels">resizeBy()</a><br>
+                <a class="bid" title="Resizes a window to the specified width and height">resizeTo()</a><br>
+                <a class="bid" title="Scrolls the content by the specified number of pixels">scrollBy()</a><br>
+                <a class="bid" title="Scrolls the content to the specified coordinates">scrollTo()</a><br>
+                <a class="bid" title="Evaluates an expression at specified intervals">setInterval()</a><br>
+                <a class="bid" title="Evaluates an expression after a specified number of milliseconds">setTimeout()</a><br>
+            </div>
+            </div>
+        <div id="dialog_link">
+             
+            
+        </div>
+    </body>
+</html>
